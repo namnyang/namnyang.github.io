@@ -13,9 +13,7 @@ title: Namnyang                          # the main title
 tagline: 조금 이상한 블로그  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Namnyang's a little strange blog
 
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://namnyang.github.io'
