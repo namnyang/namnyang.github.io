@@ -13,7 +13,7 @@ tags: [github]
 >   **시작하기에 앞서, 이 블로그는 기록하는 용도로 만든 블로그 입니다
 >   맞춤법이나, 여러가지 불편한 점이 있을 수 있습니다**
 
-##1. Repository 만들기
+## 1. Repository 만들기
 
 이름이 **github username.github.io** 인 Repository를 만듭니다
 
@@ -23,7 +23,7 @@ tags: [github]
 
 <img src="https://media.discordapp.net/attachments/757834543473623121/780631957246705696/unknown.png" alt="Repository 생성" style="zoom: 67%;" />
 
-##2. Repository Clone 해오기
+## 2. Repository Clone 해오기
 
 Repository를 자신의 컴퓨터로 다운로드 합시다
 
@@ -39,7 +39,7 @@ $ git clone 복사한 링크
 
 <img src="https://cdn.discordapp.com/attachments/783321855774687273/784260364153913344/unknown.png" style="zoom: 67%;" />
 
-##3. Jekyll 테마 찾기
+## 3. Jekyll 테마 찾기
 
 지금 이 상태에서도 **html**파일이나 **md**파일을 만들고 자신의 블로그 주소로 접속하면 파일 안의 내용이 출력 되기는 하지만,
 
