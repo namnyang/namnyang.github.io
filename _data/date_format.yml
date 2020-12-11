@@ -7,5 +7,5 @@
 
 tooltip: "%a, %b %e, %Y, %l:%M %p %z"
 post:
-  long: "%b %e, %Y"
+  long: "%B %d %Y"
   short: "%b %e"
