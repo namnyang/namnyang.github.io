@@ -1,3 +1,12 @@
+---
+title: 쉽고 간단하게 Github Page 만들기 [1]
+author: namnyang
+date: 2020-12-11 20:25
+categories: [Raspberry PI]
+tags: [Plex Media Server]
+---
+
+
 이번 포스트에서는 라즈베리파이에 Plex Media Server를 설치해봅시다 
 
 이 포스트에서는 설치법만 다루고, 나머지 설정과 사용법은 다루지 않으니 참고 바랍니다
