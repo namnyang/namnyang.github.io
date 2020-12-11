@@ -19,8 +19,17 @@ redirect_from:  # part of site.sitemap_exclude
 dynamic_title: true
 ---
 
+<style>
+a {
+  /* devinlife : a link 하이퍼링크 밑줄 없애기 */
+  text-decoration: none;
+  color : none;
+}
+</style>
+
 <div class="lead">
   <img style="border: 1px solid black; border-radius: 8px; moz-border-radius: 8px; khtml-border-radius: 8px; webkit-border-radius: 8px;"src="https://geek.hellyer.kiwi/files/2017/06/cat-404.jpg" alt="이미지를 불러올 수 없습니다" width="700px" height="auto">
+  <br>
   <p>Sorry, The Page you are looking for doesn't exist or an other error occurred. </p>
   <p><a href="{{ site.baseurl }}/">GO back Home</a>, or ask to cat</p>
 </div>
