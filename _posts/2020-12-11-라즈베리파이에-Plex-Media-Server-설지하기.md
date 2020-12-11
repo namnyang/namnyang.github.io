@@ -1,6 +1,6 @@
-이번 포스트에서는 라즈베리파이에 Plex Media Server를 설치해봅시다
+이번 포스트에서는 라즈베리파이에 Plex Media Server를 설치해봅시다  
 
-
+<br>
 
 Plex Media Server는 영상을 스트리밍으로 볼 수 있게 해주는 서버입니다
 
