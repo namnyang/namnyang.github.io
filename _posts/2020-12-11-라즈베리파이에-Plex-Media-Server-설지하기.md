@@ -2,8 +2,6 @@
 
 
 
-### Plex Media Server 
-
 Plex Media Server는 영상을 스트리밍으로 볼 수 있게 해주는 서버입니다
 
 RPI3는 약간 버거울 수 있지만 RPI4부터는 원활하게 동영상 시청이 가능합니다
@@ -52,7 +50,11 @@ service changed on disk. Run 'systemctl daemon-reload' to reload units.
 
 웹 브라우저에서 `http://라즈베리파이IP:32400/web/index`에 접속하면 됩니다
 
+
+
 ---
+
+
 
 ## 유지보수(?)
 
