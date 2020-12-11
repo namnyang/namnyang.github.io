@@ -2,7 +2,7 @@
 
 
 
-###### Plex Media Server 
+### Plex Media Server 
 
 Plex Media Server는 영상을 스트리밍으로 볼 수 있게 해주는 서버입니다
 
@@ -52,11 +52,11 @@ service changed on disk. Run 'systemctl daemon-reload' to reload units.
 
 웹 브라우저에서 `http://라즈베리파이IP:32400/web/index`에 접속하면 됩니다
 
-
+---
 
 ## 유지보수(?)
 
-#### 부팅시 자동실행
+### 부팅시 자동실행
 
 만약 라즈베리파이를 재부팅한 후 Plex Media Server가 자동으로 실행되지 않는다면 service 상태를 확인해 보고
 
@@ -66,7 +66,7 @@ systemctl status plexmediaserver
 
 Fail 메세지가 나오면 오류 메세지를 보고 오류를 해결하면 됩니다
 
-#### 업데이트
+### 업데이트
 
 나중에 새로운 버전이 출시되면 deb파일을 다운받은 뒤
 
