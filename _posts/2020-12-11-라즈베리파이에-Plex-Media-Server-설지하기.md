@@ -23,7 +23,9 @@ Repository를 추가합니다
 
 ```terminal
 sudo apt-get install apt-transport-https
+
 curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
+
 echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
 ```
 
@@ -40,7 +42,8 @@ sudo apt-get install plexmediaserver
 만약 이런 경고가 나온다면, `systemctl daemon-reload`를 실행해 줍니다
 
 ```
-Warning: The unit file, source configuration file or drop-ins of plexmediaserver.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+Warning: The unit file, source configuration file or drop-ins of plexmediaserver.
+service changed on disk. Run 'systemctl daemon-reload' to reload units.
 ```
 
 
