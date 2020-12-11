@@ -51,7 +51,7 @@ html[mode=dark] {
 }
 
 html, body {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -730,6 +730,10 @@ a {
 img {
   max-width: 100%;
 }
+
+a {
+  /* devinlife : a link 하이퍼링크 밑줄 없애기 */
+  text-decoration: none;
 
 .post {
   h1 {
