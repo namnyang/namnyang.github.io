@@ -4,69 +4,66 @@
 # © 2017-2019 Cotes Chung
 # MIT licensed
 
-
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Namnyang                          # the main title
+title: Namnyang # the main title
 
-tagline: 코딩하는 중딩  # it will display as the sub-title
+tagline: 코딩하는 중딩 # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  Namnyang's a little strange blog
+description: >- # used by seo meta and the atom feed
+    Namnyang's a little strange blog
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://namnyang.github.io'
+url: "https://namnyang.github.io"
 
-author: namnyang0510                  # change to your full name
+author: namnyang0510 # change to your full name
 
-avatar: /assets/img/sample/d.png   # support internet resources
+avatar: /assets/img/sample/d.png # support internet resources
 
 github:
-  username: namnyang             # change to your github username
+    username: namnyang # change to your github username
 
 twitter:
-  username: Namnyang0510            # change to your twitter username
+    username: Namnyang0510 # change to your twitter username
 
 social:
-  name: namnyang0510                  # it will shows as the copyright owner in Footer
-  email: namnyang0510@google.com             # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/Namnyang0510      # change to your twitter homepage
-    - https://github.com/namnyang       # change to your github homepage
-    # Uncomment below to add more social links
-    - https://www.facebook.com/namnyang0510
-    # - https://www.linkedin.com/in/username
+    name: namnyang0510 # it will shows as the copyright owner in Footer
+    email: namnyang0510@google.com # change to your email address
+    links:
+        # The first element serves as the copyright owner's link
+        - https://twitter.com/Namnyang0510 # change to your twitter homepage
+        - https://github.com/namnyang # change to your github homepage
+        # Uncomment below to add more social links
+        - https://www.facebook.com/namnyang0510
+        # - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
 #--------------------------
 
-
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
-baseurl: ''
+baseurl: ""
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
-  pv:
-    # The Google Analytics pageviews switch.
-    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-    enabled: false
-    # the next options only valid when `google_analytics.pv` is enabled.
-    proxy_url: ''
-    proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+    id: "" # Fill with your Google Analytics ID
+    pv:
+        # The Google Analytics pageviews switch.
+        # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
+        enabled: false
+        # the next options only valid when `google_analytics.pv` is enabled.
+        proxy_url: ""
+        proxy_endpoint: ""
+        cache: false # pv data local cache, good for the users from GFW area.
 
 disqus:
-  comments: true
-  # boolean type, the global switch for posts comments.
-  shortname: 'namnyang-blog'    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
+    comments: true
+    # boolean type, the global switch for posts comments.
+    shortname: "namnyang-blog" # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # Prefer color scheme setting, available values:
 #
@@ -77,7 +74,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark
+theme_mode: dual
 
 # boolean type, global switch for ToC in posts.
 toc: true
@@ -89,111 +86,99 @@ markdown: kramdown
 highlighter: rouge
 
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
-    # default_lang: console
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+    input: GFM
+    syntax_highlighter: rouge
+    syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+        css_class: "highlight"
+        # default_lang: console
+        span:
+            line_numbers: false
+        block:
+            line_numbers: true
+            start_line: 1
 
 # DO NOT change this unless you're a Pro user on Jekyll and Web development,
 # or you think you're smart enough to change other relevant URLs within this template.
 permalink: /posts/:title/
 
 defaults:
-  -
-    scope:
-      path: ""          # An empty string here means all files in the project
-      type: posts
-    values:
-      layout: post
-      comments: true    # Enable comments in posts.
-      toc: true         # Display TOC column in posts.
-      location: Post
-      breadcrumb:
-        -
-          label: Posts
-          url: /
-  -
-    scope:
-      path: _drafts
-    values:
-      comments: false
-  -
-    scope:
-      path: tags
-    values:
-      tab_active: Tags
-      location: Tag
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Tags
-          url: /tabs/tags/
-  -
-    scope:
-      path: categories
-    values:
-      tab_active: Categories
-      location: Category
-      breadcrumb:
-        -
-          label: Home
-          url: /
-        -
-          label: Categories
-          url: /tabs/categories/
-  -
-    scope:
-      path: tabs
-    values:
-      layout: page
-      dynamic_title: true    # Hide title in mobile screens.
-      breadcrumb:
-        -
-          label: Home
-          url: /
-
+    - scope:
+          path: "" # An empty string here means all files in the project
+          type: posts
+      values:
+          layout: post
+          comments: true # Enable comments in posts.
+          toc: true # Display TOC column in posts.
+          location: Post
+          breadcrumb:
+              - label: Posts
+                url: /
+    - scope:
+          path: _drafts
+      values:
+          comments: false
+    - scope:
+          path: tags
+      values:
+          tab_active: Tags
+          location: Tag
+          breadcrumb:
+              - label: Home
+                url: /
+              - label: Tags
+                url: /tabs/tags/
+    - scope:
+          path: categories
+      values:
+          tab_active: Categories
+          location: Category
+          breadcrumb:
+              - label: Home
+                url: /
+              - label: Categories
+                url: /tabs/categories/
+    - scope:
+          path: tabs
+      values:
+          layout: page
+          dynamic_title: true # Hide title in mobile screens.
+          breadcrumb:
+              - label: Home
+                url: /
 
 sass:
-  sass_dir: /assets/css
-  style: compressed
+    sass_dir: /assets/css
+    style: compressed
 
 compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: []
+    clippings: all
+    comments: all
+    endings: all
+    profile: false
+    blanklines: false
+    ignore:
+        envs: []
 
 exclude:
-  - vendor        # Avoid Jekyll mistakenly read the vendor directory on Travis-CI's VM .
-  - Gemfile.lock
-  - Gemfile
-  - tools
-  - docs
-  - README.md
-  - LICENSE
+    - vendor # Avoid Jekyll mistakenly read the vendor directory on Travis-CI's VM .
+    - Gemfile.lock
+    - Gemfile
+    - tools
+    - docs
+    - README.md
+    - LICENSE
 
-sitemap_exclude:  # Sitemap will exclude the following items.
-  fuzzy:
-    - /assets/
-  accurate:
-    - /norobots/
-    - /tabs/
-    - /categories/
-    - /tags/
-    - /posts/
-    - 404.html
-    - feed.xml
-    - sitemap.xml
-    - robots.txt
-    - redirects.json
+sitemap_exclude: # Sitemap will exclude the following items.
+    fuzzy:
+        - /assets/
+    accurate:
+        - /norobots/
+        - /tabs/
+        - /categories/
+        - /tags/
+        - /posts/
+        - 404.html
+        - feed.xml
+        - sitemap.xml
+        - robots.txt
+        - redirects.json
