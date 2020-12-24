@@ -1,9 +1,13 @@
 ---
 title: 라즈베리파이에 Plex Media Server 설치하기
 author: namnyang
-date: 2020-12-11 20:25
-categories: [Raspberry PI]
-tags: [Plex Media Server, Raspberry PI]
+date: '2020-12-11 20:25'
+categories:
+  - Raspberry PI
+tags:
+  - Plex Media Server
+  - Raspberry PI
+published: true
 ---
 
 
@@ -11,7 +15,7 @@ tags: [Plex Media Server, Raspberry PI]
 
 이 포스트에서는 설치법만 다루고, 나머지 설정과 사용법은 다루지 않으니 참고 바랍니다
 
-<br>
+<br/>
 
 Plex Media Server는 영상을 스트리밍으로 볼 수 있게 해주는 서버입니다
 
@@ -88,4 +92,3 @@ Fail 메세지가 나오면 오류 메세지를 보고 오류를 해결하면 �
 ```terminal
 sudo dpkg -i plexmediaserver*.deb
 ```
-
