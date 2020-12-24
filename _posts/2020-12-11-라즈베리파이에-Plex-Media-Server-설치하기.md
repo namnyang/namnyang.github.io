@@ -63,7 +63,7 @@ service changed on disk. Run 'systemctl daemon-reload' to reload units.
 
 ## Plex Media Server 접속
 
-웹 브라우저에서 `http://라즈베리파이IP:32400/web/index`에 접속합니다
+웹 브라우저에서 `http://라즈베리파이IP:32400/web/index`에 접속하면 됩니다
 
 
 
