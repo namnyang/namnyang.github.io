@@ -10,7 +10,7 @@
 collections:
   tags:
     output: true
-    permalink: /tags/:path/
+    permalink: /tags/:title/
 
 category_dir: tabs/categories/
 tag_dir: tabs/tag/
