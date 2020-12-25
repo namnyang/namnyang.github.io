@@ -7,6 +7,11 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:path/
+
 category_dir: tabs/categories/
 tag_dir: tabs/tag/
 
