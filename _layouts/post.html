@@ -145,6 +145,15 @@ layout: default
 
     {% include post-nav.html %}
 
+<script src="https://utteranc.es/client.js"
+        repo="namnyang/namnyang.github.io"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+    
     {% if site.disqus.comments and page.comments %}
       {% include disqus.html %}
     {% endif %}
@@ -164,13 +173,5 @@ layout: default
             
 {% include lozad.html %}
 
-<center>
-<script src="https://utteranc.es/client.js"
-        repo="namnyang/namnyang.github.io"
-        issue-term="pathname"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-</center>
+
             
